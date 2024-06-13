@@ -15,7 +15,7 @@ The machine learning process undertaken in this analysis comprises several key s
 
 Creation of Label Sets and Feature DataFrame: Extract the target variable (loan status) and relevant features (such as loan size, interest rate, borrower income, debt-to-income ratio, number of accounts, derogatory marks, and total debt) from the provided dataset. Construct a DataFrame for the features and a corresponding label set for the target variable.
 
-Data Splitting:ivide the dataset into training and testing subsets using the train_test_split method. This ensures that the model can be trained on one portion of the data and evaluated on a separate, unseen portion to assess its generalizability.
+Data Splitting:Divide the dataset into training and testing subsets using the train_test_split method. This ensures that the model can be trained on one portion of the data and evaluated on a separate, unseen portion to assess its generalizability.
 
 Model Development:Develop a logistic regression model as the initial approach. Model Training:it the logistic regression model to the training data. Prediction Generation:se the fitted model to make predictions on the testing dataset. This involves applying the model to the testing feature data to predict the loan status labels Model Evaluation: Evaluate the performance of the model using several metrics: Accuracy Score,Confusion Matrix,Classification Report.
 
