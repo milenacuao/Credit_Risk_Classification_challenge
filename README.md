@@ -23,7 +23,8 @@ The primary objective of these methodological steps was to evaluate and compare 
 
 RESULTS
 
-image
+<img width="579" alt="image" src="https://github.com/milenacuao/Credit_Risk_Classification_challenge/assets/151895571/c61fea4d-ea5f-4600-adfe-9436e50ecf88">
+
 The performance of the Logistic Regression model trained on the original dataset demonstrates commendable predictive capabilities for both healthy and high-risk loans. This is evidenced by the high overall accuracy score of 99.18% and a balanced accuracy score of 95.20%.
 
 Healthy Loans, the precision score for healthy loans is 100%, indicating that every prediction made for healthy loans was correct. This high precision is a direct consequence of the predominance of healthy loan instances in the dataset. in the other hand High-Risk Loans, the precision score for high-risk loans is 85%. This suggests that while the model is generally accurate, there is still a significant proportion of false positives in the high-risk loan predictions. This discrepancy underscores the impact of class imbalance on the model's ability to predict the minority class accurately.
